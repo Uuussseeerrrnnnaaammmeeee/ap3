@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP3</title>
+    <style>
+        body {
+          margin: 0;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          background-color: #ffecec;
+          display: flex;
+          padding: 40px;
+          padding-left: 310px;
+          height: 100vh;
+          gap: 30px; /* <-- adds space between sidebar and content */
+        }
+    
+        .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200px; /* Make it bigger */
+      height: 100vh; /* Full screen height */
+      background-color: #fcdede;
+      padding: 40px 20px;
+      box-sizing: border-box;
+      overflow-y: auto; /* Scroll inside if needed */
+    }
+    
+    
+        .sidebar a {
+          display: block;
+          margin-bottom: 15px;
+          text-decoration: none;
+          color: black;
+          font-weight: bold;
+        }
+    
+        .sidebar a:hover {
+          color: #ff3366;
+        }
+    
+        .lesson-box {
+          background-color: #fff8f0;
+          padding: 30px;
+          border-radius: 12px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          display: flex;
+          gap: 30px;
+          flex: 1;
+          height: 1000px;
+        }
+    
+        .main-content {
+        flex: 5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        }
+        .image {
+          flex: 1;
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-start;
+        }
+    
+        .image img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 10px;
+        }
+    
+        h2 {
+          margin-top: 30px;
+        }
+      </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="abtme.html">Tentang saya</a>
+        <a href="karakter.html">Karakter Favorit</a>
+        <a href="karakter2.html">Karakter Favorit ke-2</a>
+    </div>
+    <div class="lesson-box">
+        <div class="main-content">
+            <h1>Karakter Favorit ke-2</h1>
+            <img src="mao.jpg" height="300" width="225">
+            <p>Nama : Mao Zedong</p>
+            <p>Lahir : 26 Desember 1893</p>
+            <p>Meninggal : 9 September 1976</p>
+            <p>Umur : 82</p>
+            <p>Tempat lahir : Shaoshan, Hunan, China</p>
+            <p>Tempat tinggal : PRC(People's Republic of China)</p>
+            <p>Tempat meninggal : Beijing, China</p>
+            <p>Mengapa saya memilih dia :</p>
+            <p>Dia yang menemukan CCP(Chinese Communist Party) dan membuat Tiongkok hebat</p>
+        </div>
+    
+
+      </div>
+</body>
+</html>
+

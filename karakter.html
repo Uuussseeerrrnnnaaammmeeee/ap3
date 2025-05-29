@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP3</title>
+    <style>
+        body {
+          margin: 0;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          background-color: #ffecec;
+          display: flex;
+          padding: 40px;
+          padding-left: 310px;
+          height: 100vh;
+          gap: 30px; /* <-- adds space between sidebar and content */
+        }
+    
+        .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200px; /* Make it bigger */
+      height: 100vh; /* Full screen height */
+      background-color: #fcdede;
+      padding: 40px 20px;
+      box-sizing: border-box;
+      overflow-y: auto; /* Scroll inside if needed */
+    }
+    
+    
+        .sidebar a {
+          display: block;
+          margin-bottom: 15px;
+          text-decoration: none;
+          color: black;
+          font-weight: bold;
+        }
+    
+        .sidebar a:hover {
+          color: #ff3366;
+        }
+    
+        .lesson-box {
+          background-color: #fff8f0;
+          padding: 30px;
+          border-radius: 12px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          display: flex;
+          gap: 30px;
+          flex: 1;
+          height: 1000px;
+        }
+    
+        .main-content {
+        flex: 5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        }
+        .image {
+          flex: 1;
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-start;
+        }
+    
+        .image img {
+          max-width: 100%;
+          height: auto;
+          border-radius: 10px;
+        }
+    
+        h2 {
+          margin-top: 30px;
+        }
+      </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="abtme.html">Tentang saya</a>
+        <a href="karakter.html">Karakter Favorit</a>
+        <a href="karakter2.html">Karakter Favorit ke-2</a>
+    </div>
+    <div class="lesson-box">
+        <div class="main-content">
+            <h1>Karakter Favorit</h1>
+            <img src="stalin.jpg" height="300" width="215">
+            <p>Nama : Joseph Stalin</p>
+            <p>Lahir : 18 Desember 1878</p>
+            <p>Meninggal : 5 Maret 1953</p>
+            <p>Umur : 75</p>
+            <p>Tempat lahir : Gori, Kekaisaran Rusia</p>
+            <p>Tempat tinggal : Soviet</p>
+            <p>Tempat meninggal : Moskow, Uni Soviet</p>
+            <p>Mengapa saya memilih dia :</p>
+            <p>Dia yang menyelamatkan dunia dari Nazi Germany</p>
+        </div>
+    
+        <div class="image">
+          
+        </div>
+      </div>
+</body>
+</html>
+
